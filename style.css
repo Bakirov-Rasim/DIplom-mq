@@ -312,7 +312,7 @@ h1 {
 }
 
 .footer-block {
-  background-image: url("img/football_767.jpg");
+  background-image: url("img/game_767.jpg");
   background-color: #090a36;
   background-repeat: no-repeat;
   background-position: center center;
@@ -340,4 +340,34 @@ h1 {
   width: 60px;
   height: 50px;
   margin: 12px 6px;
+}
+
+.footer-title-adn-slogan {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  margin: 58px auto 74px;
+}
+
+.footer-title {
+  display: inline;
+  font-family: 'Open Sans Bold';
+  font-size: 32px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: justify;
+  margin: auto;
+}
+
+.footer-slogan{
+  font-family: 'Open Sans Regular';
+  font-size: 14px;
+  color: #9b8dc3;
+  text-transform: uppercase;
+  margin: 0 auto;
+  
+}
+
+.footer-app-links {
+  margin-bottom: 80px;
 }
