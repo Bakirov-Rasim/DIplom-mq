@@ -46,12 +46,76 @@ body {
 
   .app-link {
     font-size: 8px;
+    width: 78px;
   }
 
   .logo-link {
     width: 22px;
     height: 27px;
     margin-right: 7px;
+  }
+
+  .first-article-title-img {
+    background-image: url("img/footballer_192.png");
+    height: 281px;
+    width: 192px;
+    margin-left: calc(50% - 96px);
+  }
+
+  .article-title {
+    font-size: 50px;
+    width: 280px;
+    margin: 0 auto;
+  }
+
+  .event {
+    width: 280px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .first-event {
+    background-color: #fafafa;
+    margin-top: 244px;
+    padding: 83px 0 51px;
+  }
+
+  .event-number {
+    font-size: 14px;
+    margin: 0 5px 0 0;
+  }
+
+  .event-number::after {
+    top: 20px;
+    left: 0;
+    width: 16px;
+    height: 4px;
+    right: 0;
+  }
+
+  .event-title {
+    font-size: 23px;
+    line-height: 27px;
+  }
+
+  .second-event {
+    padding: 59px 0 55px;
+  }
+
+  .third-event {
+    padding: 59px 0 55px;
+  }
+
+  .title-description {
+    font-size: 15px;
+    margin-top: 27px;
+  }
+
+  .second-article-title-img {
+    background-image: url("img/basketballer_302.png");
+    height: 248px;
+    width: 302px;
+    margin-left: calc(50% - 151px);
   }
 
 }
@@ -108,6 +172,82 @@ body {
 
   .link-text {
     width: 160px;
+  }
+
+  .first-article {
+    position: relative;
+  }
+
+  .article-title {
+    font-size: 80px;
+  }
+
+  .first-article-title {
+    width: 442px;
+    margin: 70px 32px 0 auto;
+  }
+
+  .first-article-title-img {
+    background-image: url("img/footballer_497.png");
+    width: 497px;
+    height: 699px;
+    top: 35px;
+    right: 435px;
+  }
+
+  .events {
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
+  .first-article:nth-child(odd) .event {
+    width: 442px;
+    margin-right: 32px;
+    margin-left: auto;
+  }
+
+  .first-article:nth-child(even) .event {
+    width: 430px;
+    margin-right: auto;
+    margin-left: 32px;
+  }
+
+  .event-number {
+    font-size: 18px;
+    margin: 0 8px 0 0;
+  }
+
+  .event-number::after {
+    top: 26px;
+    left: 0;
+    width: 20px;
+    height: 5px;
+    right: 0;
+  }
+
+  .event-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .title-description {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+
+  .second-article-title {
+    width: 430px;
+    margin: 70px auto 0 32px;
+  }
+
+  .second-article-title-img {
+    background-image: url("img/basketballer_436.png");
+    height: 565px;
+    width: 436px;
+    right: 0;
+    top: 0;
   }
 
 }
@@ -207,48 +347,26 @@ h1 {
 .article-title {
   box-sizing: border-box;
   font-family: 'Open Sans Bold';
-  font-size: 50px;
   text-transform: uppercase;
-  width: 280px;
-  margin: 0 auto;
   color: #e7e7e7;
 }
 
 .first-article-title-img {
   position: absolute;
-  background-image: url("img/footballer_192.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 281px;
-  width: 192px;
-  margin-left: calc(50% - 96px);
 }
 
 .second-article-title-img {
   position: absolute;
-  background-image: url("img/basketballer_302.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 248px;
-  width: 302px;
-  margin-left: calc(50% - 151px);
-}
-
-.first-event {
-  background-color: #fafafa;
-  margin-top: 244px;
-  padding: 83px 0 51px;
 }
 
 .second-event {
   background-color: #f5f4f9;
-  padding: 59px 0 55px;
-}
-
-.third-event {
-  padding: 59px 0 55px;
 }
 
 .first-article:nth-child(odd)  .third-event {
@@ -259,7 +377,7 @@ h1 {
   background-color: #090a36;
 }
 
-.first-article:nth-child(2) .third-event .title-description {
+.first-article .third-event .title-description {
   color: #ffffff;
 }
 
@@ -271,12 +389,6 @@ h1 {
   background-color: #ffffff;
 }
 
-.event {
-  width: 280px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 .number-and-title {
   display: flex;
 }
@@ -284,33 +396,12 @@ h1 {
 .event-number {
   position: relative;
   font-family: 'Open Sans Bold';
-  font-size: 14px;
-  margin: 0 5px 0 0;
 }
 
 .event-number::after {
   content: "";
   position: absolute;
-  top: 20px;
-  left: 0;
-  width: 16px;
-  height: 4px;
   background-color: #5e3db3;
-  right: 0;
-  margin: 0;
-  display: block;
-  border-radius: 50px;
-}
-
-.event-number3::after {
-  content: "";
-  position: absolute;
-  top: 20px;
-  left: 0;
-  width: 16px;
-  height: 4px;
-  background-color: #ffffff;
-  right: 0;
   margin: 0;
   display: block;
   border-radius: 50px;
@@ -319,15 +410,12 @@ h1 {
 .event-title {
   font-family: 'Open Sans Bold';
   text-transform: uppercase;
-  font-size: 23px;
   color: #c1c1c1;
   margin: 0;
 }
 
 .title-description {
   font-family: 'Open Sans Regular';
-  font-size: 15px;
-  margin-top: 27px;
 }
 
 .second-article-info {
