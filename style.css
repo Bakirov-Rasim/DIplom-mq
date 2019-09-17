@@ -2,6 +2,116 @@ body {
   margin: 0;
 }
 
+@media (max-width: 640px) {
+
+  .main-header {
+    padding-bottom: 84px;
+    padding-top: 33px;
+  }
+
+  .main-logo {
+    width: 137px;
+  }
+
+  h1 {
+    font-size: 28px;
+  }
+
+  .main-title {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 136px;
+    margin-bottom: 89px;
+    width: 258px;
+  }
+
+  .header-title2 {
+    margin-right: 0;
+    margin-left: auto;
+    margin-top: 15px;
+    width: 215px;
+    line-height: 33px;
+  }
+
+  .app-link-and-logo {
+    width: 280px;
+    height: 35px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .app-link-and-logo:last-child {
+    margin-top: 14px;
+  }
+
+  .app-link {
+    font-size: 8px;
+  }
+
+  .logo-link {
+    width: 22px;
+    height: 27px;
+    margin-right: 7px;
+  }
+
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+
+  .main-header {
+    padding-bottom: 96px;
+    padding-top: 38px;
+  }
+
+  .main-logo {
+    width: 208px;
+  }
+
+  h1 {
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 2px;
+  }
+
+  .main-title {
+    margin: 176px auto 308px;
+    width: 604px;
+  }
+
+  .header-title2 {
+    margin-right: auto;
+    margin-left: 107px;
+    min-width: 497px;
+  }
+
+  .app-links {
+    display: flex;
+    width: 652px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .app-link-and-logo {
+    width: 311px;
+    height: 78px;
+  }
+
+  .app-link {
+    font-size: 14px;
+  }
+
+  .logo-link {
+    width: 38px;
+    height: 48px;
+    margin-right: 25px;
+  }
+
+  .link-text {
+    width: 160px;
+  }
+
+}
+
 .main-header {
   background-image: url("img/football_767.jpg");
   background-color: #090a36;
@@ -9,8 +119,6 @@ body {
   background-position: center center;
   background-size: cover;
   position: relative;
-  padding-bottom: 84px;
-  padding-top: 33px;
 }
 
 .for-transparency::before {
@@ -33,20 +141,11 @@ body {
   display: block;
   margin: 0 auto;
   fill: #ffffff;
-  width: 137px;
-}
-
-.main-title {
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 89px;
-  width: 258px;
 }
 
 h1 {
   display: block;
   text-transform: uppercase;
-  font-size: 28px;
   font-family: 'Open Sans Bold';
   color: #ffffff;
 }
@@ -68,55 +167,32 @@ h1 {
 .header-title1 {
   display: block;
   box-sizing: border-box;
-  margin-left: 0;
-  margin-top: 136px;
-  margin-bottom: 0;
-  padding: 0;
-  line-height: 0;
 }
 
 .header-title2 {
   display: block;
   box-sizing: border-box;
-  margin-right: 0;
-  margin-left: auto;
-  width: 215px;
-  margin-top: 29px;
-  line-height: 33px;
 }
 
 .app-link-and-logo {
- background-color: #5e3db3;
- display: flex;
- width: 280px;
- height: 35px;
- margin-left: auto;
- margin-right: auto;
- align-items: center;
- justify-content: center;
- border-radius: 50px;
+  background-color: #5e3db3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
 }
 
 .app-link {
   text-transform: uppercase;
   text-decoration: none;
-  font-size: 8px;
   color: #ffffff;
-}
-
-.app-link-and-logo:last-child {
-  margin-top: 14px;
 }
 
 .link-text {
   display: flex;
-  width: 85px;
 }
 
 .logo-link {
-  width: 22px;
-  height: 27px;
-  margin-right: 7px;
   fill: #ffffff;
 }
 
