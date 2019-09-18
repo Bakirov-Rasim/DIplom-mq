@@ -200,7 +200,6 @@ body {
   h1 {
     font-size: 64px;
     line-height: 80px;
-    letter-spacing: 1px;
   }
 
   .main-title {
@@ -281,6 +280,10 @@ body {
   .event-number {
     font-size: 18px;
     margin: 0 8px 0 0;
+  }
+
+  .first-article:nth-child(odd) .third-event .event-number {
+    color: #0a0e34;
   }
 
   .event-number::after {
@@ -385,35 +388,34 @@ body {
 @media (min-width: 961px) and (max-width: 1920px) {
 
   .main-header {
-    background-image: url("img/football_767.jpg");
-    padding-bottom: 96px;
-    padding-top: 38px;
+    background-image: url("img/football_1920.jpg");
+    padding-bottom: 109px;
+    padding-top: 44px;
   }
 
   .main-logo {
-    width: 208px;
+    width: 191px;
   }
 
   h1 {
-    font-size: 64px;
-    line-height: 80px;
-    letter-spacing: 1px;
+    font-size: 90px;
+    line-height: auto;
   }
 
   .main-title {
-    margin: 176px auto 308px;
-    width: 604px;
+    margin: 282px auto 197px;
+    max-width: 1555px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .header-title2 {
-    margin-right: auto;
-    margin-left: 107px;
-    min-width: 497px;
+    text-align: right;
   }
 
   .app-links {
     display: flex;
-    width: 652px;
+    width: 672px;
     margin: auto;
     justify-content: space-between;
   }
@@ -443,41 +445,54 @@ body {
 
   .article-title {
     font-size: 80px;
+    width: 50%;
+    line-height: 60px;
   }
 
   .first-article-title {
-    width: 442px;
-    margin: 70px 32px 0 auto;
+    margin: 106px 0 40px auto;
+    padding-left: 72px;
+    padding-right: 195px;
+    
   }
 
   .first-article-title-img {
-    background-image: url("img/footballer_497.png");
-    width: 497px;
-    height: 699px;
-    top: 35px;
-    right: 435px;
+    background-image: url("img/footballer_566.png");
+    width: 566px;
+    height: 908px;
+    top: -76px;
+    right: 50%;
   }
 
   .events {
-    padding-top: 39px;
-    padding-bottom: 39px;
+    padding-top: 55px;
+    padding-bottom: 55px;
   }
 
   .first-article:nth-child(odd) .event {
-    width: 442px;
-    margin-right: 32px;
+    box-sizing: border-box;
+    width: 50%;
+    margin-right: 0;
     margin-left: auto;
+    padding-left: 51px;
+    padding-right: 195px;
   }
 
   .first-article:nth-child(even) .event {
-    width: 430px;
+    box-sizing: border-box;
+    width: 50%;
     margin-right: auto;
-    margin-left: 32px;
+    margin-left: 0;
+    padding-left: 195px;
   }
 
   .event-number {
     font-size: 18px;
     margin: 0 8px 0 0;
+  }
+
+  .first-article:nth-child(odd) .third-event .event-number {
+    color: #0a0d35;
   }
 
   .event-number::after {
@@ -489,28 +504,32 @@ body {
   }
 
   .event-title {
-    font-size: 32px;
+    font-size: 36px;
     line-height: 35px;
   }
 
   .title-description {
-    font-size: 16px;
+    font-size: 20px;
     margin-top: 25px;
     margin-bottom: 0;
     line-height: 25px;
   }
 
   .second-article-title {
-    width: 430px;
-    margin: 70px auto 0 32px;
+    margin: 106px auto 60px 0;
+    padding-left: 195px;
   }
 
   .second-article-title-img {
-    background-image: url("img/basketballer_436.png");
-    height: 565px;
-    width: 436px;
-    right: 0;
-    top: 0;
+    background-image: url("img/basketballer_991.png");
+    height: 815px;
+    width: 991px;
+    left: 50%;
+    top: -87px;
+  }
+
+  .second-event {
+    padding-bottom: 86px;
   }
 
   .second-article {
@@ -721,7 +740,7 @@ h1 {
   color: #ffffff;
 }
 
-.first-article:nth-child(2) .third-event .event-number {
+.first-article:nth-child(even) .third-event .event-number {
   color: #8760e0;
 }
 
