@@ -1,10 +1,12 @@
 body {
   margin: 0;
+  letter-spacing: 0.9px;
 }
 
 @media (max-width: 640px) {
 
   .main-header {
+    background-image: url("img/football_767.jpg");
     padding-bottom: 84px;
     padding-top: 33px;
   }
@@ -46,7 +48,7 @@ body {
 
   .app-link {
     font-size: 8px;
-    width: 78px;
+    width: 92px;
   }
 
   .logo-link {
@@ -118,11 +120,75 @@ body {
     margin-left: calc(50% - 151px);
   }
 
+  .second-article-info {
+    width: 280px;
+  }
+
+  .info-name {
+    font-size: 28px;
+    margin: 33px 0 0 0;
+  }
+
+  .second-article-number {
+    margin-top: -92px;
+    width: 70px;
+    height: 70px;
+  }
+
+  .article-number {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+
+  .article-number:after {
+    width: 16px;
+    height: 4px;
+  }
+
+  .info-description {
+    font-size: 16px;
+    margin-top: 22px;
+    margin-bottom: 76px;
+  }
+
+    .footer-block {
+    background-image: url("img/game_767.jpg");
+    padding-bottom: 10px;
+    padding-top: 99px;
+  }
+
+  .footer-logo-block {
+    width: 72px;
+    height: 74px;
+  }
+
+  .footer-logo {
+    height: 50px;
+  }
+
+  .footer-title-and-slogan {
+    width: 280px;
+    margin: 58px auto 74px;
+  }
+
+  .footer-title {
+    font-size: 32px;
+  }
+
+  .footer-slogan{
+    font-size: 14px;
+  }
+
+  .footer-app-links {
+    margin-bottom: 80px;
+  }
+
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
 
   .main-header {
+    background-image: url("img/football_767.jpg");
     padding-bottom: 96px;
     padding-top: 38px;
   }
@@ -134,7 +200,7 @@ body {
   h1 {
     font-size: 64px;
     line-height: 80px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   .main-title {
@@ -250,10 +316,278 @@ body {
     top: 0;
   }
 
+  .second-article-info {
+    width: 703px;
+  }
+
+  .info-name {
+    font-size: 80px;
+    margin: 70px 0 0 0;
+  }
+
+  .second-article-number {
+    top: -160px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .article-number {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .article-number:after {
+    width: 27px;
+    height: 5px;
+    top: 35px;
+  }
+
+  .info-description {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 100px;
+  }
+
+  .footer-block {
+    background-image: url("img/game_767.jpg");
+    padding-bottom: 23px;
+    padding-top: 126px;
+  }
+
+  .footer-logo-block {
+    width: 130px;
+    height: 136px;
+  }
+
+  .footer-logo {
+    height: 86px;
+  }
+
+  .footer-title-and-slogan {
+    width: 703px;
+    margin: 71px auto 278px;
+  }
+
+  .footer-title {
+    font-size: 80px;
+  }
+
+  .footer-slogan{
+    font-size: 36px;
+  }
+
+  .footer-app-links {
+    margin-bottom: 55px;
+  }
+
 }
 
-.main-header {
-  background-image: url("img/football_767.jpg");
+@media (min-width: 961px) and (max-width: 1920px) {
+
+  .main-header {
+    background-image: url("img/football_767.jpg");
+    padding-bottom: 96px;
+    padding-top: 38px;
+  }
+
+  .main-logo {
+    width: 208px;
+  }
+
+  h1 {
+    font-size: 64px;
+    line-height: 80px;
+    letter-spacing: 1px;
+  }
+
+  .main-title {
+    margin: 176px auto 308px;
+    width: 604px;
+  }
+
+  .header-title2 {
+    margin-right: auto;
+    margin-left: 107px;
+    min-width: 497px;
+  }
+
+  .app-links {
+    display: flex;
+    width: 652px;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .app-link-and-logo {
+    width: 311px;
+    height: 78px;
+  }
+
+  .app-link {
+    font-size: 14px;
+  }
+
+  .logo-link {
+    width: 38px;
+    height: 48px;
+    margin-right: 25px;
+  }
+
+  .link-text {
+    width: 160px;
+  }
+
+  .first-article {
+    position: relative;
+  }
+
+  .article-title {
+    font-size: 80px;
+  }
+
+  .first-article-title {
+    width: 442px;
+    margin: 70px 32px 0 auto;
+  }
+
+  .first-article-title-img {
+    background-image: url("img/footballer_497.png");
+    width: 497px;
+    height: 699px;
+    top: 35px;
+    right: 435px;
+  }
+
+  .events {
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
+  .first-article:nth-child(odd) .event {
+    width: 442px;
+    margin-right: 32px;
+    margin-left: auto;
+  }
+
+  .first-article:nth-child(even) .event {
+    width: 430px;
+    margin-right: auto;
+    margin-left: 32px;
+  }
+
+  .event-number {
+    font-size: 18px;
+    margin: 0 8px 0 0;
+  }
+
+  .event-number::after {
+    top: 26px;
+    left: 0;
+    width: 20px;
+    height: 5px;
+    right: 0;
+  }
+
+  .event-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .title-description {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+
+  .second-article-title {
+    width: 430px;
+    margin: 70px auto 0 32px;
+  }
+
+  .second-article-title-img {
+    background-image: url("img/basketballer_436.png");
+    height: 565px;
+    width: 436px;
+    right: 0;
+    top: 0;
+  }
+
+  .second-article {
+    display: flex;
+  }
+
+  .second-article-img {
+    width: 50%;
+  }
+
+ /* .second-article-info {
+    width: 703px;
+  }
+
+  .info-name {
+    font-size: 80px;
+    margin: 70px 0 0 0;
+  }
+
+  .second-article-number {
+    top: -160px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .article-number {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .article-number:after {
+    width: 27px;
+    height: 5px;
+    top: 35px;
+  }
+
+  .info-description {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 100px;
+  }*/
+
+  .footer-block {
+    background-image: url("img/game_767.jpg");
+    padding-bottom: 23px;
+    padding-top: 126px;
+  }
+
+  .footer-logo-block {
+    width: 130px;
+    height: 136px;
+  }
+
+  .footer-logo {
+    height: 86px;
+  }
+
+  .footer-title-and-slogan {
+    width: 703px;
+    margin: 71px auto 278px;
+  }
+
+  .footer-title {
+    font-size: 80px;
+  }
+
+  .footer-slogan{
+    font-size: 36px;
+  }
+
+  .footer-app-links {
+    margin-bottom: 55px;
+  }
+
+}
+
+.header-and-footer {
   background-color: #090a36;
   background-repeat: no-repeat;
   background-position: center center;
@@ -261,7 +595,7 @@ body {
   position: relative;
 }
 
-.for-transparency::before {
+.header-and-footer::before {
   content: "";
   background-color: #090a36;
   position: absolute;
@@ -318,8 +652,14 @@ h1 {
   background-color: #5e3db3;
   display: flex;
   align-items: center;
+  text-decoration: none;
   justify-content: center;
   border-radius: 50px;
+}
+
+.icon-and-link {
+  display: flex;
+  align-items: center;
 }
 
 .app-link {
@@ -419,7 +759,7 @@ h1 {
 }
 
 .second-article-info {
-  width: 280px;
+  position: relative;
   margin-left: auto;
   margin-right: auto;
 }
@@ -427,111 +767,70 @@ h1 {
 .second-article-img {
   display: block;
   max-width: 100%;
+  min-height: 351px;
+  background-color: #e7e7e7;
 }
 
 .second-article-number {
+  display: flex;
+  justify-content: center;
   position: absolute;
+  background-color: #5e3db3;
 }
 
 .info-name {
   font-family: 'Open Sans Bold';
   text-transform: uppercase;
-  font-size: 28px;
   color: #e7e7e7;
-  margin: 33px 0 0 0;
 }
 
 .info-description {
   font-family: 'Open Sans Regular';
-  font-size: 16px;
-  margin-top: 22px;
-  margin-bottom: 76px;
-}
-
-.second-article-number {
-  margin-top: -92px;
-  display: block;
-  width: 70px;
-  height: 70px;
-  background-color: #5e3db3;
 }
 
 .article-number {
-  display: block;
+  position: relative;
   font-family: 'Open Sans Bold';
-  font-size: 14px;
   color: #ffffff;
-  margin-left: 27px;
-  margin-top: 22px;
 }
 
 .article-number:after {
   content: "";
   position: absolute;
-  width: 16px;
-  height: 4px;
   background-color: #8f78ca;
   display: block;
   border-radius: 50px;
 }
 
-.footer-block {
-  background-image: url("img/game_767.jpg");
-  background-color: #090a36;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  position: relative;
-  padding-bottom: 10px;
-  padding-top: 99px;
-}
-
 .footer-logo-block {
-  position: relative;
-  box-sizing: border-box;
-  display: block;
+  display: flex;
   margin: 0 auto;
-  width: 72px;
-  height: 74px;
-  background-color: #7252cf;
+  background: linear-gradient(180deg, #774fda, #50339d);
   border-radius: 20%;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer-logo {
-  position: absolute;
-  display: block;
   fill: #ffffff;
-  width: 60px;
-  height: 50px;
-  margin: 12px 6px;
 }
 
-.footer-title-adn-slogan {
+.footer-title-and-slogan {
   display: flex;
   flex-direction: column;
-  width: 280px;
-  margin: 58px auto 74px;
 }
 
 .footer-title {
-  display: inline;
   font-family: 'Open Sans Bold';
-  font-size: 32px;
   color: #ffffff;
   text-transform: uppercase;
-  text-align: justify;
   margin: auto;
 }
 
 .footer-slogan{
   font-family: 'Open Sans Regular';
-  font-size: 14px;
   color: #9b8dc3;
   text-transform: uppercase;
   margin: 0 auto;
   
-}
-
-.footer-app-links {
-  margin-bottom: 80px;
 }
