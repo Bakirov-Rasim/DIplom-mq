@@ -5,6 +5,20 @@ body {
   font-family: 'Open Sans';
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  src: url(fonts/OpenSans-Bold.ttf);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(fonts/OpenSans-Regular.ttf);
+  font-weight: 400;
+  font-style: normal;
+}
+
 @media (max-width: 640px) {
 
   .main-header {
@@ -121,6 +135,10 @@ body {
     margin-left: calc(50% - 151px);
   }
 
+  .second-article-img {
+    min-height: 351px;
+  }
+
   .second-article-info {
     padding: 0 20px;
   }
@@ -187,7 +205,7 @@ body {
 
 }
 
-@media (min-width: 641px) and (max-width: 960px) {/*###############################################################################################*/
+@media (min-width: 641px) and (max-width: 960px) {
 
   .main-header {
     padding-bottom: 96px;
@@ -320,6 +338,10 @@ body {
     top: 0;
   }
 
+  .second-article-img {
+    min-height: 351px;
+  }
+
   .second-article-info {
     padding: 0 20px;
   }
@@ -388,7 +410,7 @@ body {
 }
 
 @media (max-width: 767px) {
-  
+
   .main-header {
     background-image: url("img/football_767.jpg");
   }
@@ -536,42 +558,42 @@ body {
 
   .info-description {
     font-size: 24px;
-    margin-top: 90px;
+    margin-top: 60px;
     margin-bottom: 0;
   }
 
-  .footer-block {
-    padding-bottom: 50px;
-    padding-top: 229px;
-  }
+}
 
-  .footer-logo-and-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 151px;
+@media (min-width: 1025px) and (max-width: 1280px) {
 
+ .footer-block {
+    padding-bottom: 23px;
+    padding-top: 126px;
   }
 
   .footer-logo-block {
     width: 130px;
     height: 136px;
-    margin-right: 36px;
+    margin: 0 auto;
   }
 
   .footer-title-and-slogan {
-    margin: 0;
+    width: 703px;
+    margin: 71px auto 278px;
   }
 
   .footer-slogan{
-    font-size: 30px;
-    margin: 0;
+    font-size: 36px;
+    margin: 0 auto;
   }
 
   .footer-app-links {
-    margin-bottom: 261px;
+    margin-bottom: 55px;
   }
 
 }
+
+
 
 @media (min-width: 961px) and (max-width: 1440px) {
 
@@ -699,6 +721,10 @@ body {
     top: -42px;
   }
 
+  .second-article-img {
+    min-height: 351px;
+  }
+
   .footer-logo {
     height: 86px;
   }
@@ -718,7 +744,45 @@ body {
 
   .footer-block {
     background-image: url("img/game_1920.jpg");
+    padding-bottom: 50px;
+    padding-top: 229px;
   }
+
+  .footer-logo-and-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 151px;
+
+  }
+
+  .footer-logo-block {
+    width: 130px;
+    height: 136px;
+    margin-right: 36px;
+  }
+
+  .footer-logo {
+    height: 86px;
+  }
+
+  .footer-title-and-slogan {
+    margin: 0;
+  }
+
+  .footer-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .footer-slogan{
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .footer-app-links {
+    margin-bottom: 261px;
+  }
+
 
 }
 
@@ -731,7 +795,7 @@ body {
 
 }
 
-@media (min-width: 1441px) { /*###1441########################################################################################################*/
+@media (min-width: 1441px) { 
 
   .main-header {
     padding-bottom: 109px;
@@ -903,6 +967,10 @@ body {
     order: 1;
   }
 
+  .second-article-img {
+    min-height: 548px;
+  }
+
   .info-name {
     font-size: 80px;
     margin: 0;
@@ -939,46 +1007,6 @@ body {
     margin-bottom: 0;
   }
 
-  .footer-block {
-    padding-bottom: 50px;
-    padding-top: 229px;
-  }
-
-  .footer-logo-and-title {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 151px;
-
-  }
-
-  .footer-logo-block {
-    width: 130px;
-    height: 136px;
-    margin-right: 36px;
-  }
-
-  .footer-logo {
-    height: 86px;
-  }
-
-  .footer-title-and-slogan {
-    margin: 0;
-  }
-
-  .footer-title {
-    font-size: 80px;
-    line-height: 80px;
-  }
-
-  .footer-slogan{
-    font-size: 30px;
-    margin: 0;
-  }
-
-  .footer-app-links {
-    margin-bottom: 261px;
-  }
-
 }
 
 @media (min-width: 1600px){
@@ -989,7 +1017,7 @@ body {
   }
 
 }
-/*########################################################################################################################################################*/
+
 .header-and-footer {
   background-color: #090a36;
   background-repeat: no-repeat;
@@ -1025,20 +1053,6 @@ h1 {
   text-transform: uppercase;
   font-weight: 700;
   color: #ffffff;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url(fonts/OpenSans-Bold.ttf);
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Open Sans';
-  src: url(fonts/OpenSans-Regular.ttf);
-  font-weight: 400;
-  font-style: normal;
 }
 
 .header-title1 {
@@ -1170,7 +1184,6 @@ h1 {
 .second-article-img {
   display: block;
   max-width: 100%;
-  min-height: 351px;
   background-color: #e7e7e7;
 }
 
@@ -1233,5 +1246,4 @@ h1 {
   font-weight: 400;
   color: #9b8dc3;
   text-transform: uppercase;
-  
 }
