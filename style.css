@@ -2,6 +2,7 @@ body {
   margin: 0 auto;
   letter-spacing: 0.9px;
   max-width: 1920px;
+  font-family: 'Open Sans';
 }
 
 @media (max-width: 640px) {
@@ -71,7 +72,7 @@ body {
   }
 
   .event {
-    width: 280px;
+    padding: 0 20px;
     margin-left: auto;
     margin-right: auto;
   }
@@ -121,7 +122,7 @@ body {
   }
 
   .second-article-info {
-    width: 280px;
+    padding: 0 20px;
   }
 
   .info-name {
@@ -182,18 +183,6 @@ body {
 
   .footer-app-links {
     margin-bottom: 80px;
-  }
-
-}
-
-@media (max-width: 767px) {
-  
-  .main-header {
-    background-image: url("img/football_767.jpg");
-  }
-
-  .footer-block {
-    background-image: url("img/game_767.jpg");
   }
 
 }
@@ -319,7 +308,7 @@ body {
   }
 
   .second-article-title {
-    width: 430px;
+    padding: 0 32px;
     margin: 70px auto 0 32px;
   }
 
@@ -332,7 +321,7 @@ body {
   }
 
   .second-article-info {
-    width: 703px;
+    padding: 0 20px;
   }
 
   .info-name {
@@ -398,7 +387,406 @@ body {
 
 }
 
-@media (min-width: 961px) { /*#################################################################################################################*/
+@media (max-width: 767px) {
+  
+  .main-header {
+    background-image: url("img/football_767.jpg");
+  }
+
+  .footer-block {
+    background-image: url("img/game_767.jpg");
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1280px) {
+
+  .main-header {
+    background-image: url("img/football_1280.jpg");
+  }
+
+  .footer-block {
+    background-image: url("img/game_1280.jpg");
+  }
+
+}
+
+@media (min-width: 961px) and (max-width: 1024px) {
+
+  .main-header {
+    padding-bottom: 96px;
+    padding-top: 38px;
+  }
+
+  .main-logo {
+    width: 208px;
+  }
+
+  h1 {
+    font-size: 64px;
+    line-height: 80px;
+  }
+
+  .main-title {
+    margin: 176px auto 308px;
+    width: 604px;
+  }
+
+  .header-title2 {
+    margin-right: auto;
+    margin-left: 107px;
+    min-width: 497px;
+  }
+
+  .app-links {
+    display: flex;
+    width: 652px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+
+  .app-link-and-logo {
+    width: 311px;
+    height: 78px;
+  }
+
+  .app-link {
+    font-size: 14px;
+  }
+
+  .logo-link {
+    width: 38px;
+    height: 48px;
+    margin-right: 25px;
+  }
+
+  .link-text {
+    width: 160px;
+  }
+
+  .second-article-info {
+    padding: 0 40px;
+  }
+
+  .info-name {
+    font-size: 80px;
+    margin: 70px 0 0 0;
+  }
+
+  .second-article-number {
+    top: -160px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .article-number {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .article-number:after {
+    width: 27px;
+    height: 5px;
+    top: 35px;
+  }
+
+  .info-description {
+    font-size: 24px;
+    margin-top: 14px;
+    margin-bottom: 100px;
+  }
+
+  .footer-block {
+    padding-bottom: 23px;
+    padding-top: 126px;
+  }
+
+  .footer-logo-block {
+    width: 130px;
+    height: 136px;
+    margin: 0 auto;
+  }
+
+  .footer-logo {
+    height: 86px;
+  }
+
+  .footer-title-and-slogan {
+    width: 703px;
+    margin: 71px auto 278px;
+  }
+
+  .footer-title {
+    font-size: 80px;
+  }
+
+  .footer-slogan{
+    font-size: 36px;
+    margin: 0 auto;
+  }
+
+  .footer-app-links {
+    margin-bottom: 55px;
+  }
+
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+
+  .main-header {
+    padding-bottom: 96px;
+    padding-top: 38px;
+  }
+
+  .main-logo {
+    width: 208px;
+  }
+
+  h1 {
+    font-size: 75px;
+    line-height: 80px;
+  }
+
+  .main-title {
+    margin: 176px 30px 308px;
+  }
+
+  .header-title2 {
+    text-align: right;
+  }
+
+  .app-links {
+    display: flex;
+    width: 652px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+  }
+
+  .app-link-and-logo {
+    width: 311px;
+    height: 78px;
+  }
+
+  .app-link {
+    font-size: 14px;
+  }
+
+  .logo-link {
+    width: 38px;
+    height: 48px;
+    margin-right: 25px;
+  }
+
+  .link-text {
+    width: 160px;
+  }
+
+  .second-article {
+    display: flex;
+  }
+
+  .second-article-preview {
+    width: 50%;
+  }
+
+  .second-article-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .name-and-description {
+    padding: 0 70px;
+  }
+
+  .second-article:nth-child(even) .second-article-preview {
+    order: 1;
+  }
+
+  .info-name {
+    font-size: 65px;
+    margin: 0;
+  }
+
+  .second-article-number {
+    top: 140px;
+    width: 116px;
+    height: 116px;
+  }
+
+  .article-number {
+    font-size: 24px;
+    margin-top: 32px;
+  }
+
+  .article-number:after {
+    width: 27px;
+    height: 5px;
+    top: 35px;
+  }
+
+  .second-article:nth-child(even) .second-article-number {
+    right: -58px;
+  }
+
+  .second-article:nth-child(odd) .second-article-number {
+    left: -58px;
+  }
+
+  .info-description {
+    font-size: 24px;
+    margin-top: 90px;
+    margin-bottom: 0;
+  }
+
+  .footer-block {
+    padding-bottom: 50px;
+    padding-top: 229px;
+  }
+
+  .footer-logo-and-title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 151px;
+
+  }
+
+  .footer-logo-block {
+    width: 130px;
+    height: 136px;
+    margin-right: 36px;
+  }
+
+  .footer-logo {
+    height: 86px;
+  }
+
+  .footer-title-and-slogan {
+    margin: 0;
+  }
+
+  .footer-title {
+    font-size: 80px;
+    line-height: 80px;
+  }
+
+  .footer-slogan{
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .footer-app-links {
+    margin-bottom: 261px;
+  }
+
+}
+
+@media (min-width: 961px) and (max-width: 1440px) {
+
+  .first-article {
+    position: relative;
+  }
+
+  .article-title {
+    font-size: 80px;
+  }
+
+  .first-article-title {
+    margin: 70px 32px 0 500px;
+  }
+
+  .first-article-title-img {
+    background-image: url("img/footballer_497.png");
+    width: 497px;
+    height: 699px;
+    top: 35px;
+    left: 35px;
+  }
+
+  .events {
+    padding-top: 39px;
+    padding-bottom: 39px;
+  }
+
+  .first-article:nth-child(odd) .event {
+    margin-right: 32px;
+    margin-left: 500px;
+  }
+
+  .first-article:nth-child(even) .event {
+    margin-right: 423px;
+    margin-left: 32px;
+  }
+
+  .event-number {
+    font-size: 18px;
+    margin: 0 8px 0 0;
+  }
+
+  .first-article:nth-child(odd) .third-event .event-number {
+    color: #0a0e34;
+  }
+
+  .event-number::after {
+    top: 26px;
+    left: 0;
+    width: 20px;
+    height: 5px;
+    right: 0;
+  }
+
+  .event-title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+  .title-description {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    line-height: 25px;
+  }
+
+  .second-article-title {
+    width: 430px;
+    margin: 70px auto 0 32px;
+  }
+
+  .second-article-title-img {
+    background-image: url("img/basketballer_991.png");
+    height: 565px;
+    width: 687px;
+    right: 0;
+    top: -42px;
+  }
+
+}
+
+@media (min-width: 1281px) {
+
+  .main-header {
+    background-image: url("img/football_1920.jpg");
+  }
+
+  .footer-block {
+    background-image: url("img/game_1920.jpg");
+  }
+
+}
+
+@media (min-width: 1441px) and (max-width: 1600px) {
+
+  .second-article-title-img {
+    right: 21px;
+    top: -100px;
+  }
+
+}
+
+@media (min-width: 1441px) { /*###1441########################################################################################################*/
 
   .main-header {
     padding-bottom: 109px;
@@ -535,8 +923,6 @@ body {
     background-image: url("img/basketballer_991.png");
     height: 815px;
     width: 991px;
-    right: 122px;
-    top: -87px;
   }
 
   .second-event {
@@ -650,26 +1036,11 @@ body {
 
 }
 
-@media (min-width: 768px) and (max-width: 1280px) {
+@media (min-width: 1600px){
 
-  .main-header {
-    background-image: url("img/football_1280.jpg");
-  }
-
-  .footer-block {
-    background-image: url("img/game_1280.jpg"); line-height: 
-  }
-
-}
-
-@media (min-width: 1281px) {
-
-  .main-header {
-    background-image: url("img/football_1920.jpg");
-  }
-
-  .footer-block {
-    background-image: url("img/game_1920.jpg");
+  .second-article-title-img {
+    right: 122px;
+    top: -87px;
   }
 
 }
@@ -707,19 +1078,19 @@ body {
 h1 {
   display: block;
   text-transform: uppercase;
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
   color: #ffffff;
 }
 
 @font-face {
-  font-family: 'Open Sans Bold';
+  font-family: 'Open Sans';
   src: url(fonts/OpenSans-Bold.ttf);
   font-weight: 700;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Open Sans Regular';
+  font-family: 'Open Sans';
   src: url(fonts/OpenSans-Regular.ttf);
   font-weight: 400;
   font-style: normal;
@@ -764,16 +1135,16 @@ h1 {
 }
 
 .first-part {
-  font-family: 'Open Sans Regular';
+  font-weight: 400;;
 }
 
 .second-part {
-  font-family: 'Open Sans Bold';
+  font-weight: 700;;
 }
 
 .article-title {
   box-sizing: border-box;
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
   text-transform: uppercase;
   color: #e7e7e7;
 }
@@ -822,7 +1193,7 @@ h1 {
 
 .event-number {
   position: relative;
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
 }
 
 .event-number::after {
@@ -835,14 +1206,14 @@ h1 {
 }
 
 .event-title {
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
   text-transform: uppercase;
   color: #c1c1c1;
   margin: 0;
 }
 
 .title-description {
-  font-family: 'Open Sans Regular';
+  font-weight: 400;
 }
 
 .second-article-info {
@@ -866,18 +1237,18 @@ h1 {
 }
 
 .info-name {
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
   text-transform: uppercase;
   color: #e7e7e7;
 }
 
 .info-description {
-  font-family: 'Open Sans Regular';
+  font-weight: 400;
 }
 
 .article-number {
   position: relative;
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
   color: #ffffff;
 }
 
@@ -907,14 +1278,14 @@ h1 {
 }
 
 .footer-title {
-  font-family: 'Open Sans Bold';
+  font-weight: 700;
   color: #ffffff;
   text-transform: uppercase;
   margin: auto;
 }
 
 .footer-slogan{
-  font-family: 'Open Sans Regular';
+  font-weight: 400;
   color: #9b8dc3;
   text-transform: uppercase;
   
